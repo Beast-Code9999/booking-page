@@ -1,0 +1,19 @@
+{
+  "name": "booking-page",
+  "version": "1.0.0",
+  "description": "Booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beast-Code9999/booking-page.git"
+  },
+  "author": "Beast Code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beast-Code9999/booking-page/issues"
+  },
+  "homepage": "https://github.com/Beast-Code9999/booking-page#readme"
+}
