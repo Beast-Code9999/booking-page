@@ -1,14 +1,21 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-}
+//abstract partial files
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
 
-html {
-    font-size: 62.5%;
-}
+// base partial files
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
 
-body {
-    box-sizing: border-box;
-}
+//components partial files
+
+
+//layout partial files
+@import "layout/footer";
+@import "layout/header";
+
+
+//pages partial files 
+@import "pages/home";
