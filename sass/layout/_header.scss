@@ -1,7 +1,25 @@
 .header {
-    height: 10rem;
+    height: 8rem;
     width: 100%;
     background-color: lightblue;
     padding: 1rem 2rem;
+    @include flex(row, space-between, center);
+
+    &__logo {
+        height: 100%;
+        @include flex(row, center, center);
+
+
+        & img {
+            height: 80%;
+        }
+    }   
     
+    &__input {
+
+    }
+
+    &__links {
+
+    }
 }
