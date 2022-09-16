@@ -36,3 +36,10 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+
+.container {
+  max-width: 110rem;
+  min-height: 50rem;
+  margin: 10rem auto;
+  background-color: #fff;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.2); }
