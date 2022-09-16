@@ -20,6 +20,8 @@
     }
 
     &__links {
-
+        @include flex(row, space-between, center);
+        gap: 3rem;
+        
     }
 }
