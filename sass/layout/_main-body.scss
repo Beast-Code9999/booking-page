@@ -1,5 +1,11 @@
 .main {
     background-color: lightgreen;
     height: auto;
+
+    display: flex;
     
+    &__content {
+        width: 90%;
+    }
 }
+

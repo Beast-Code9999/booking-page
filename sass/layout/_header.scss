@@ -2,7 +2,7 @@
     height: 8rem;
     width: 100%;
     background-color: lightblue;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     @include flex(row, space-between, center);
 
     &__logo {

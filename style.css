@@ -37,11 +37,16 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.aside {
+  width: 20%;
+  height: 100rem;
+  background-color: lightcoral; }
+
 .header {
   height: 8rem;
   width: 100%;
   background-color: lightblue;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -63,7 +68,10 @@ body {
 
 .main {
   background-color: lightgreen;
-  height: auto; }
+  height: auto;
+  display: flex; }
+  .main__content {
+    width: 90%; }
 
 .container {
   max-width: 110rem;
