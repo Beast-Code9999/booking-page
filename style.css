@@ -38,7 +38,7 @@ body {
   margin-top: 10rem !important; }
 
 .aside {
-  width: 20%;
+  width: 20rem;
   background-color: lightcoral; }
 
 .header {
@@ -70,13 +70,13 @@ body {
   height: auto;
   display: flex; }
   .main__content {
-    width: 80%;
+    width: 90rem;
     display: flex;
     flex-direction: column; }
   .main__picture {
     display: flex;
     width: 100%;
-    height: 25rem; }
+    height: 15rem; }
     .main__picture > img {
       height: 100%; }
 
