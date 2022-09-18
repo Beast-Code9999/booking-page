@@ -205,14 +205,29 @@ body {
     display: flex;
     width: 100%;
     height: 20rem; }
-    .main__picture > img {
-      height: 100%; }
+  .main__header {
+    width: 100%;
+    height: 8rem;
+    background-color: orangered;
+    display: flex;
+    align-items: center; }
+    .main__header-heading {
+      padding: 1.5rem 3rem;
+      text-transform: uppercase;
+      font-size: 2rem; }
+    .main__header-review {
+      padding: 1.5rem 0;
+      width: 45%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center; }
 
 .container {
   max-width: 110rem;
   min-height: 50rem;
   margin: 10rem auto;
   background-color: #fff;
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column; }
