@@ -4,19 +4,29 @@
     @include flex(column, space-between, center);
 
     &__links {
-
+        @include flex(column, space-evenly, flex-start);
+        margin-top: 3.5rem;
+        width: 100%;
 
     }
 
     &__item {
+        background-color: gray;
+        width: 100%;
 
         & > a {
-            @include flex(row, center, center);
+            @include flex(row, flex-start, center);
+            gap: 2rem;
+            color: white;
+            text-decoration: none;
+            font-size: $default-font;
+            
         }
     }
 
     &__copyright {
         color: white;
+        
     }
 
 }

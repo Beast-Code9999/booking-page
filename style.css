@@ -86,11 +86,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center; }
-  .aside__item > a {
+  .aside__links {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 3.5rem;
+    width: 100%; }
+  .aside__item {
+    background-color: gray;
+    width: 100%; }
+    .aside__item > a {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 2rem;
+      color: white;
+      text-decoration: none;
+      font-size: 1.6rem; }
   .aside__copyright {
     color: white; }
 
