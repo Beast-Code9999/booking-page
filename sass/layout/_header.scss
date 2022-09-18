@@ -1,7 +1,7 @@
 .header {
     height: 8rem;
     width: 100%;
-    background-color: lightblue;
+    background-color: $color-body-1;
     padding: 1rem 2.5rem;
     @include flex(row, space-between, center);
 
@@ -16,7 +16,7 @@
     }   
     
     &__input {
-        width: 40rem;
+        width: auto;
         height: 4rem;
         padding: .5 1rem;
         @include flex(row, center, center);
