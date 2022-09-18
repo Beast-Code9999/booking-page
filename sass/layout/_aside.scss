@@ -1,4 +1,22 @@
 .aside {
     width: 20rem;
     background-color: $color-gray;
+    @include flex(column, space-between, center);
+
+    &__links {
+
+
+    }
+
+    &__item {
+
+        & > a {
+            @include flex(row, center, center);
+        }
+    }
+
+    &__copyright {
+        color: white;
+    }
+
 }
