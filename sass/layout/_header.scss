@@ -1,11 +1,12 @@
 .header {
     height: 8rem;
     width: 100%;
+    padding: 0 2rem;
     background-color: $color-body-1;
     @include flex(row, space-between, center);
 
     &__logo {
-        height: 80%;
+        height: 70%;
         @include flex(row, center, center);
 
 
@@ -24,12 +25,21 @@
     &__user-nav {
         height: 100%;
         @include flex(row, space-between, center);
-        gap: 3rem;
 
         &-icon {
             height: 100%;
-            background-color: red;
+            @include flex(row, center, center);
+            padding: 0 2rem;
+
+            &:hover {
+                background-color: $color-gray-dark;
+                cursor: pointer;
+            }
         }
         
+        &-profile {
+            @include flex(row, center, center);
+            padding: 0 2rem;
+        }
     }
 }
