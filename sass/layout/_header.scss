@@ -1,7 +1,7 @@
 .header {
     height: 8rem;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 0 0 2rem;
     background-color: $color-body-1;
     @include flex(row, space-between, center);
 
@@ -48,6 +48,16 @@
             right: 25%;
         }
         
+        &-profile {
+            height: 100%;
+            @include flex(row, center, center);
+
+
+            &:hover {
+                background-color: $color-gray-light;
+            }
+        }
+
         &-profile > a {
             text-decoration: none;
             color: $color-gray;
