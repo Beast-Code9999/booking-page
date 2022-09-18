@@ -122,7 +122,9 @@ body {
   .aside__span {
     text-transform: uppercase; }
   .aside__copyright {
-    color: white; }
+    color: white;
+    padding: 2rem 4rem;
+    text-align: center; }
 
 .header {
   height: 8rem;
