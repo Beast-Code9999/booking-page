@@ -49,6 +49,13 @@ body {
     height: 100%;
     display: block; }
 
+.review {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  padding: 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
+
 .searchbar {
   width: auto;
   display: flex;
@@ -266,6 +273,10 @@ body {
       background-color: #fff;
       height: 100%;
       padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
       box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
     .main__body-user-reviews {
       background-color: #fff;
@@ -273,7 +284,8 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      gap: 3rem; }
 
 .container {
   max-width: 110rem;

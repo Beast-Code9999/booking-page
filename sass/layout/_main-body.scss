@@ -83,13 +83,15 @@
             background-color: $color-body-1;
             height: 100%;
             padding: 2rem;
+            @include flex(column, space-between, flex-start);
             box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .2);
         }
 
         &-user-reviews {
             background-color: $color-body-1;
             height: 100%;
-            @include flex(column, space-between, center)
+            @include flex(column, space-between, center);
+            gap: 3rem;
         }
     }
 
