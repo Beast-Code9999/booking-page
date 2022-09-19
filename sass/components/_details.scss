@@ -26,6 +26,25 @@
         &:not(:last-child) {
             margin-bottom: 1rem;
         }
+
+        &::before {
+            content: "";
+            display: inline-block;
+            height: 1rem;
+            width: 1rem;
+            margin-right: .5rem;
+
+            // for old browsers
+            // background-image: url(/icon/icons8-chevron-right-16.png);
+            // background-size: cover;
+
+            // use mask for the best way
+            background-color: $color-primary;
+            -webkit-mask-image: url(/icon/icons8-chevron-right-16.png);
+            -webkit-mask-size: cover; // behaves like background-size
+            mask-image: url(/icon/icons8-chevron-right-16.png);
+            mask-size: cover; 
+        }
     }
 
     &__recommend {
