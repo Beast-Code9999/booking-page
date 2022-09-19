@@ -1,4 +1,37 @@
 .details {
-    
+    background-color: $color-body-1;
+    height: 100%;
+    padding: 2rem;
+    @include flex(column, space-between, flex-start);
+    box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .2);
+
+    &__paragraph {
+        color: $color-gray;
+        font-style: inherit;
+    }
+
+    &__list {
+        list-style: none;
+        margin: 3rem 0;
+        padding: 3rem 0;
+        border-top: 2px solid $color-gray-light;
+        border-bottom: 2px solid $color-gray-light;
+    }
+
+    &__item {
+
+    }
+
+    &__recommend {
+
+    }
+
+    &__friends {
+
+    }
+
+    &__photo {
+
+    }
 
 }

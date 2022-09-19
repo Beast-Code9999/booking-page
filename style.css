@@ -40,6 +40,25 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.details {
+  background-color: #fff;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
+  .details__paragraph {
+    color: #3d3d3d;
+    font-style: inherit; }
+  .details__list {
+    list-style: none;
+    margin: 3rem 0;
+    padding: 3rem 0;
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1; }
+
 .gallery {
   display: flex; }
   .gallery__item {
@@ -269,15 +288,6 @@ body {
     align-items: center;
     padding: 3rem;
     gap: 3rem; }
-    .main__body-details {
-      background-color: #fff;
-      height: 100%;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
-      box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
     .main__body-user-reviews {
       background-color: #fff;
       height: 100%;
