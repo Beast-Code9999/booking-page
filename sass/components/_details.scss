@@ -16,10 +16,16 @@
         padding: 3rem 0;
         border-top: 2px solid $color-gray-light;
         border-bottom: 2px solid $color-gray-light;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     &__item {
-
+        flex: 0 0 50%;
+        
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
     }
 
     &__recommend {
