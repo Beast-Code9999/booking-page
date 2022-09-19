@@ -8,20 +8,29 @@
     &__paragraph {
         color: $color-gray;
         font-style: inherit;
+        color: $color-gray-dark-2;
+        font-size: 1.2rem;
+
+        &--recommend {
+            font-size: 1.3rem;
+            color: $color-gray-dark-1;
+        }
     }
 
     &__list {
         list-style: none;
         margin: 3rem 0;
         padding: 3rem 0;
-        border-top: 2px solid $color-gray-light;
-        border-bottom: 2px solid $color-gray-light;
+        border-top: 2px solid $color-gray-light-2;
+        border-bottom: 2px solid $color-gray-light-2;
         display: flex;
         flex-wrap: wrap;
     }
 
     &__item {
         flex: 0 0 50%;
+        color: $color-gray-dark-2;
+        font-size: 1.2rem;
         
         &:not(:last-child) {
             margin-bottom: 1rem;
@@ -48,7 +57,8 @@
     }
 
     &__recommend {
-        display: flex;
+        width: 100%;
+        @include flex(row, space-between, center);
     }
 
     &__friends {
