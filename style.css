@@ -78,9 +78,13 @@ body {
   .details__recommend {
     display: flex; }
   .details__photo {
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 3px solid white; }
+    .details__photo:not(:last-child) {
+      margin-right: -1.5rem; }
 
 .gallery {
   display: flex; }
