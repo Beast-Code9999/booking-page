@@ -75,7 +75,22 @@
     }
 
     &__body {
-        
+        @include flex(row, center, center);
+        padding: 3rem;
+        gap: 3rem;
+
+        &-details {
+            background-color: $color-body-1;
+            height: 100%;
+            padding: 2rem;
+            box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .2);
+        }
+
+        &-user-reviews {
+            background-color: $color-body-1;
+            height: 100%;
+            @include flex(column, space-between, center)
+        }
     }
 
     &__footer {

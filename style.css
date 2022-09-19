@@ -255,6 +255,25 @@ body {
       .main__header-rating-votes {
         color: white;
         text-transform: uppercase; }
+  .main__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 3rem; }
+    .main__body-details {
+      background-color: #fff;
+      height: 100%;
+      padding: 2rem;
+      box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
+    .main__body-user-reviews {
+      background-color: #fff;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
 
 .container {
   max-width: 110rem;
