@@ -165,9 +165,21 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #26a5bc;
     width: 100%;
-    height: 5rem; }
+    height: 5rem;
+    position: relative; }
+    .aside__item::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 5px;
+      background-color: #26a5bc;
+      transform: scaleY(0);
+      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s; }
+    .aside__item:hover::before {
+      transform: scaleY(1);
+      width: 100%; }
     .aside__item > a {
       width: 100%;
       padding-left: 3rem;
