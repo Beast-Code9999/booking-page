@@ -75,6 +75,12 @@ body {
       -webkit-mask-size: cover;
       mask-image: url(/icon/icons8-chevron-right-16.png);
       mask-size: cover; }
+  .details__recommend {
+    display: flex; }
+  .details__photo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%; }
 
 .gallery {
   display: flex; }

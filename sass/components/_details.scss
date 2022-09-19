@@ -48,7 +48,7 @@
     }
 
     &__recommend {
-
+        display: flex;
     }
 
     &__friends {
@@ -56,7 +56,9 @@
     }
 
     &__photo {
-
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
     }
 
 }
