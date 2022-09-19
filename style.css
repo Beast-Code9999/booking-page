@@ -168,6 +168,8 @@ body {
     width: 100%;
     height: 5rem;
     position: relative; }
+    .aside__item:first-child {
+      background-color: #26a5bc; }
     .aside__item::before {
       content: "";
       position: absolute;
@@ -176,8 +178,9 @@ body {
       width: 5px;
       background-color: #26a5bc;
       transform: scaleY(0);
-      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s; }
-    .aside__item:hover::before {
+      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
+      z-index: 1; }
+    .aside__item:not(:first-child):hover::before {
       transform: scaleY(1);
       width: 100%; }
     .aside__item > a {
@@ -193,6 +196,9 @@ body {
       font-size: 1.6rem; }
     .aside__item:not(:last-child) {
       margin-bottom: .5rem; }
+  .aside__link {
+    position: relative;
+    z-index: 2; }
   .aside__img {
     width: 2rem; }
   .aside__span {
