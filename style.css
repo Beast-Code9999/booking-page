@@ -180,9 +180,11 @@ body {
       transform: scaleY(0);
       transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
       z-index: 1; }
-    .aside__item:not(:first-child):hover::before {
+    .aside__item:hover::before, .aside__item--active::before {
       transform: scaleY(1);
       width: 100%; }
+    .aside__item:active::before {
+      background-color: #2dd7f5; }
     .aside__item > a {
       width: 100%;
       padding-left: 3rem;

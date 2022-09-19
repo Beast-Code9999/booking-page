@@ -37,9 +37,14 @@
         }
 
         //animation
-        &:not(:first-child):hover::before {
+        &:hover::before,
+        &--active::before {
             transform: scaleY(1);
             width: 100%;
+        }
+
+        &:active::before {
+            background-color: $color-primary-light;
         }
 
         & > a {
