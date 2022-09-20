@@ -40,6 +40,24 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.btn-review,
+.btn-review:visited {
+  color: #26a5bc;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-bottom: 1px solid #26a5bc;
+  transition: all .3s; }
+  .btn-review:hover,
+  .btn-review:visited:hover {
+    color: black;
+    border-bottom: 1px solid black; }
+  .btn-review span,
+  .btn-review:visited span {
+    transition: all .3s; }
+  .btn-review:hover span,
+  .btn-review:visited:hover span {
+    margin-left: 1rem; }
+
 .details {
   background-color: #fff;
   height: 100%;

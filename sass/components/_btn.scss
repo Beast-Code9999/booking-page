@@ -1,0 +1,21 @@
+.btn-review,
+.btn-review:visited {
+    color: $color-primary;
+    font-size: $default-font;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    transition: all .3s;
+
+    &:hover {
+        color: black;
+        border-bottom: 1px solid black;
+    }
+    
+    & span {
+        transition: all .3s;
+    }
+
+    &:hover span {
+        margin-left: 1rem;
+    }
+}
