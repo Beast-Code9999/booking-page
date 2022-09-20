@@ -63,6 +63,7 @@ body {
     margin-left: 1rem; }
 
 .btn {
+  margin: 0 auto;
   padding: 1rem 3rem;
   border-radius: 2rem;
   border: none;
@@ -397,7 +398,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 4rem;
     gap: 3rem; }
     .main__body-user-reviews {
       background-color: #f8f8f8;
@@ -408,7 +409,16 @@ body {
       align-items: center;
       gap: 3rem; }
   .main__footer {
-    width: 100%; }
+    padding: 4rem 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main__footer h2 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 100; }
 
 .container {
   max-width: 110rem;
