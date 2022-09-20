@@ -13,6 +13,7 @@
 - Photo by Andrew Personal  Training : https://www.pexels.com/photo/photo-of-man-in-white-shirt-with-round-black-analog-watch-697509/
 
 // review photo
-Image by https://pixabay.com/users/roentahlenberg-76484/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=322470" 
-Mark Roentahlenberg from "https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=322470"
+- Photo by Andrea Piacquadio: https://www.pexels.com/photo/freckled-face-3763188/
+
+- Photo by Chevanon Photography: https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/
 
