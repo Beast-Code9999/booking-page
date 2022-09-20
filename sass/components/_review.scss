@@ -1,37 +1,44 @@
 .review {
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: $color-body-1;
     padding: 2rem;
-    box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .2);
+    box-shadow: 0 1rem 4rem rgba($color: #000000, $alpha: .2);
 
     &__text {
         font-size: 1.2rem;
     }
 
     &__user {
-        @include flex(row, space-between, center);
+        display: flex;
+        align-items: center;
+        width: 100%;
     }
 
     &__photo {
         width: 4rem;
         height: 4rem;
         border-radius: 50%;
+        justify-items: flex-start;
+        margin-right: 2rem;
     }
 
     &__user-box {
-
+        margin-right: auto;
     }
 
     &__user-name {
-
+        font-size: 1.2rem;
+        color: $color-gray;
     }
 
     &__user-date {
-
+        color: $color-gray-dark-2;
     }
 
     &__rating {
-
+        font-size: 2rem;
+        color: $color-primary;
+        justify-self: end;
     }
 }

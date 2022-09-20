@@ -1,5 +1,5 @@
 .main {
-    background-color: $color-gray-light;
+    background-color: $color-body-2;
     height: auto;
     display: flex;
     
@@ -81,7 +81,7 @@
         gap: 3rem;
 
         &-user-reviews {
-            background-color: $color-body-1;
+            background-color: $color-body-2;
             height: 100%;
             @include flex(column, space-between, center);
             gap: 3rem;
