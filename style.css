@@ -68,7 +68,14 @@ body {
   border-radius: 2rem;
   border: none;
   color: white;
-  background-image: linear-gradient(90deg, #2dd7f5, #28c9d5); }
+  background-image: linear-gradient(90deg, #2dd7f5, #28c9d5);
+  position: relative; }
+  .btn__invisible {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    top: -5rem;
+    transform: translateX(-50%); }
 
 .details {
   background-color: #fff;
