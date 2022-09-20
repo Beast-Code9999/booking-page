@@ -10,7 +10,7 @@
     }
 
     &__user {
-        
+        @include flex(row, space-between, center);
     }
 
     &__photo {

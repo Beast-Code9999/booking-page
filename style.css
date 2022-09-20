@@ -114,6 +114,11 @@ body {
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
   .review__text {
     font-size: 1.2rem; }
+  .review__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
   .review__photo {
     width: 4rem;
     height: 4rem;
