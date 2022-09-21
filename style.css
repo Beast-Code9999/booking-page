@@ -147,6 +147,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center; }
+  .details__friends {
+    display: flex; }
   .details__photo {
     box-sizing: content-box;
     height: 4rem;
