@@ -4,3 +4,13 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+// media queries 
+// 10/16 * breakpoint / 10 px
+// or breakpoint / 16
+
+@mixin responsive( $breakpoint ) {
+    @if $breakpoint == 1100 {
+        @media ( max-width: 68.75em ) { @content }; 
+    }
+}

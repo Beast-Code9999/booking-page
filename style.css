@@ -478,3 +478,6 @@ footer img:hover {
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column; }
+  @media (max-width: 68.75em) {
+    .container {
+      margin: 0; } }
