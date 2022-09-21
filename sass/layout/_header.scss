@@ -9,9 +9,12 @@
         height: 70%;
         @include flex(row, center, center);
 
-
         & img {
             height: 80%;
+        }
+
+        @include responsive( 600 ) {
+            display: none;
         }
     }   
     
@@ -55,6 +58,10 @@
 
             &:hover {
                 background-color: $color-gray-light;
+            }
+
+            @include responsive( 600 ) {
+                display: none;
             }
         }
 

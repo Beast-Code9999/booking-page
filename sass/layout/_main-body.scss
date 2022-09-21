@@ -97,20 +97,26 @@
         padding: 4rem;
         gap: 3rem;
 
+        
         &-user-reviews {
             background-color: $color-body-2;
             height: 100%;
             @include flex(column, space-between, center);
             gap: 3rem;
-
+            
             @include responsive( 900 ) {
                 margin-bottom: auto;
             }
         }
-
+        
         @include responsive( 900 ) {
             padding: 3rem;
             gap: 2rem;
+        }
+        @include responsive( 600 ) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
