@@ -5,15 +5,27 @@
     padding: 2rem;
     box-shadow: 0 1rem 4rem rgba($color: #000000, $alpha: .2);
 
+    @include responsive( 600 ) {
+        padding: 4rem;       
+    }
 
     &__text {
         font-size: 1.2rem;
+
+        @include responsive( 600 ) {
+            text-align: center;    
+        }
     }
 
     &__user {
         display: flex;
         align-items: center;
         width: 100%;
+
+        @include responsive( 600 ) {
+            justify-content: center;
+            gap: 2rem;
+        }
     }
 
     &__photo {
@@ -22,10 +34,17 @@
         border-radius: 50%;
         justify-items: flex-start;
         margin-right: 2rem;
+
+        @include responsive( 600 ) {
+            margin: 0;   
+        }
     }
 
     &__user-box {
         margin-right: auto;
+        @include responsive( 600 ) {
+            margin: 0;
+        }
     }
 
     &__user-name {
