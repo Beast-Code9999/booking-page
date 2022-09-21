@@ -17,14 +17,22 @@
         border-radius: 25px;
         transition: all .2s;
 
+        @include responsive( 600 ) {
+            width: auto;
+        }
+
         &::placeholder {
             color: #949494;
         }
 
-        &:focus {
-            outline: none;
-            width: 50rem;
-            background-color: #f1f1f1;
+
+
+        @include responsive( 700 ) {
+            &:focus {
+                outline: none;
+                width: 50rem;
+                background-color: #f1f1f1;
+            }
         }
     }
 

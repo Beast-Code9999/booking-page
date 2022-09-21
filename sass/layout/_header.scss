@@ -12,10 +12,6 @@
         & img {
             height: 80%;
         }
-
-        @include responsive( 600 ) {
-            display: none;
-        }
     }   
     
     &__input {
@@ -23,6 +19,10 @@
         height: 4rem;
         padding: .5 1rem;
         @include flex(row, center, center);
+
+        @include responsive( 600 ) {
+            width: 80%;
+        }
     }
 
     &__user-nav {

@@ -22,4 +22,9 @@
     @if $breakpoint == 600 {
         @media ( max-width: 37.5em ) { @content };
     }
+
+    
+    @if $breakpoint == 700 {
+        @media ( min-width: 43.75em ) { @content };
+    }
 }

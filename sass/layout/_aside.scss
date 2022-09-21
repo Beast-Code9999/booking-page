@@ -84,6 +84,9 @@
                 align-items: center;
                 padding: 0;
             }
+            @include responsive( 600 ) {
+                gap: 1rem;
+            }
         }
 
         &:not(:last-child) {
