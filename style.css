@@ -450,6 +450,9 @@ footer img:hover {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #d9d9d9; }
+    @media (max-width: 56.25em) {
+      .main__header {
+        height: 7rem; } }
     .main__header-heading {
       padding: 1.5rem 3rem;
       text-transform: uppercase;
@@ -506,6 +509,13 @@ footer img:hover {
       justify-content: space-between;
       align-items: center;
       gap: 3rem; }
+      @media (max-width: 56.25em) {
+        .main__body-user-reviews {
+          margin-bottom: auto; } }
+    @media (max-width: 56.25em) {
+      .main__body {
+        padding: 3rem;
+        gap: 2rem; } }
   .main__footer {
     padding: 4rem 0;
     background-color: #fff;
