@@ -155,6 +155,9 @@ body {
     border: 3px solid white; }
     .details__photo:not(:last-child) {
       margin-right: -1.5rem; }
+      @media (max-width: 68.75em) {
+        .details__photo:not(:last-child) {
+          margin-right: -2rem; } }
 
 .gallery {
   display: flex; }

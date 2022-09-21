@@ -75,6 +75,10 @@
 
         &:not(:last-child) {
             margin-right: -1.5rem;
+
+            @include responsive( 1100 ) {
+                margin-right: -2rem;
+            }
         }
     }
 
