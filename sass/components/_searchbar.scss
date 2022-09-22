@@ -4,7 +4,11 @@
     padding: .5rem 1rem;
     border-radius: 20px;
     position: relative;
-
+    
+    @include responsive( 500 ) {
+        width: 100%;
+        padding: 0;
+    }
     &:target {
         background-color: red;
     }
@@ -17,16 +21,19 @@
         border-radius: 25px;
         transition: all .2s;
 
-        @include responsive( 600 ) {
-            width: auto;
-        }
-
         &::placeholder {
             color: #949494;
         }
-
-
-
+        
+        @include responsive( 600 ) {
+            width: auto;
+        }
+        @include responsive( 500 ) {
+            width: 100%;
+            border-radius: 0;
+        }
+        
+        
         @include responsive( 700 ) {
             &:focus {
                 outline: none;
