@@ -361,8 +361,14 @@ body {
     z-index: 2; }
   .aside__img {
     width: 2rem; }
+    @media (max-width: 31.25em) {
+      .aside__img {
+        width: 1.5rem; } }
   .aside__span {
     text-transform: uppercase; }
+    @media (max-width: 31.25em) {
+      .aside__span {
+        font-size: 1.5rem; } }
   .aside__copyright {
     color: white;
     padding: 2rem 4rem;

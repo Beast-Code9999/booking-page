@@ -105,10 +105,18 @@
 
     &__img {
         width: 2rem;
+
+        @include responsive( 500 ) {
+            width: 1.5rem;       
+        }
     }
 
     &__span {
         text-transform: uppercase;
+
+        @include responsive( 500 ) {
+            font-size: 1.5rem;       
+        }
     }
 
     &__copyright {
