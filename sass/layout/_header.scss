@@ -5,12 +5,22 @@
     background-color: $color-body-1;
     @include flex(row, space-between, center);
 
+    @include responsive( 500 ) {
+        flex-wrap: wrap;
+        align-content: center;
+        height: 15rem;
+    }
+
     &__logo {
         height: 70%;
         @include flex(row, center, center);
 
         & img {
             height: 80%;
+        }
+
+        @include responsive( 500 ) {
+            height: 5rem;
         }
     }   
     
@@ -23,6 +33,11 @@
         @include responsive( 600 ) {
             width: 80%;
         }
+
+        @include responsive( 500 ) {
+            order: 1;
+
+        }
     }
 
     &__user-nav {
@@ -32,6 +47,7 @@
         &-icon {
             height: 100%;
             @include flex(row, center, center);
+
             padding: 0 2rem;
             position: relative;
 

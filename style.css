@@ -179,8 +179,9 @@ body {
     display: block; }
     @media (max-width: 62.5em) {
       .gallery__photo {
+        object-fit: cover;
         width: 100%;
-        height: auto; } }
+        height: 100%; } }
 
 .review {
   width: 100%;
@@ -395,6 +396,11 @@ footer img:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
+  @media (max-width: 31.25em) {
+    .header {
+      flex-wrap: wrap;
+      align-content: center;
+      height: 15rem; } }
   .header__logo {
     height: 70%;
     display: flex;
@@ -403,6 +409,9 @@ footer img:hover {
     align-items: center; }
     .header__logo img {
       height: 80%; }
+    @media (max-width: 31.25em) {
+      .header__logo {
+        height: 5rem; } }
   .header__input {
     width: auto;
     height: 4rem;
@@ -414,6 +423,9 @@ footer img:hover {
     @media (max-width: 37.5em) {
       .header__input {
         width: 80%; } }
+    @media (max-width: 31.25em) {
+      .header__input {
+        order: 1; } }
   .header__user-nav {
     height: 100%;
     display: flex;
