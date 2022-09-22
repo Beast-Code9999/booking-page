@@ -517,6 +517,10 @@ footer img:hover {
       padding: 1.5rem 3rem;
       text-transform: uppercase;
       font-size: 2rem; }
+      @media (max-width: 31.25em) {
+        .main__header-heading {
+          font-size: 1rem;
+          padding: .75rem 1.5rem; } }
     .main__header-review {
       padding: 1.5rem 0;
       width: 40%;
@@ -524,6 +528,9 @@ footer img:hover {
       flex-direction: row;
       justify-content: flex-start;
       align-items: center; }
+      @media (max-width: 31.25em) {
+        .main__header-review {
+          width: 30%; } }
     .main__header-location {
       display: flex;
       flex-direction: row;
@@ -531,12 +538,18 @@ footer img:hover {
       align-items: center;
       gap: 1rem;
       margin-right: 3rem; }
+      @media (max-width: 31.25em) {
+        .main__header-location {
+          margin: 0 1.5rem; } }
       .main__header-location a {
         color: #26a5bc;
         font-weight: 700;
         text-decoration: none;
         border-bottom: 1px solid #26a5bc;
         transition: all .5s; }
+        @media (max-width: 31.25em) {
+          .main__header-location a {
+            font-size: 1rem; } }
         .main__header-location a:hover {
           color: black;
           border-bottom: 1px solid black; }
@@ -551,9 +564,15 @@ footer img:hover {
       .main__header-rating-result {
         color: white;
         font-size: 2rem; }
+        @media (max-width: 31.25em) {
+          .main__header-rating-result {
+            font-size: 1.5rem; } }
       .main__header-rating-votes {
         color: white;
         text-transform: uppercase; }
+        @media (max-width: 31.25em) {
+          .main__header-rating-votes {
+            font-size: .5rem; } }
   .main__body {
     display: flex;
     flex-direction: row;
